@@ -12,3 +12,28 @@
 <footer>
 
 </footer>
+
+<style>
+    .claseblablabla:checked
+    {
+        @{
+            variable++;
+        }
+    }
+    .claseblablabla2:checked
+    {
+        @{
+            variable++;
+        }
+    }
+</style>
+@{
+    if (variable == 2)
+    {
+        <style>
+            .submit{
+                display: contents;
+            }
+        </style>
+    }
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP06_Berihogr_AguileraS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+421a734021970301a3af463655f012679fddcd80")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP06_Berihogr_AguileraS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP06_Berihogr_AguileraS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
