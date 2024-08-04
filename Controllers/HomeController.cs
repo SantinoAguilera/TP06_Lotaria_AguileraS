@@ -18,9 +18,38 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Game()
     {
         return View();
+    }
+
+    public IActionResult Historia()
+    {
+        return View();
+    }
+
+    public IActionResult PasarTurno(int[] movimientosJugador)
+    {
+        int[] resultados = new int[3];
+        ViewBag.vidasNorte = Mechanics.vidaNorte;
+        ViewBag.vidasNorte = Mechanics.vidaCentro;
+        ViewBag.vidasNorte = Mechanics.vidaSur;
+        if (Mechanics.vidaDesembarco != 4)
+        {
+            ViewBag.vidasNorte = Mechanics.vidaDesembarco;
+        }
+        resultados = Mechanics.CombatResult(movimientosJugador);
+        return View("Game");
+    }
+
+    public IActionResult Nombres(string pagina)
+    {
+        ViewBag.nombres = true;
+        if (pagina == "Menú Principal")
+        {
+            pagina = "Index";
+        }
+        return View(pagina);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

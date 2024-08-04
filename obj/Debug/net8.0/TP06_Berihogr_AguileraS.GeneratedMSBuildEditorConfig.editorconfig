@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\santi\OneDrive\Documents\TPs\Programación\TP06_Lotaria_AguileraS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Home/Game.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Home/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/santi/OneDrive/Documents/TPs/Programación/TP06_Lotaria_AguileraS/Views/Shared/Error.cshtml]

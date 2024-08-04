@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Uktiria";
+}
+
+<main>
+    <img src="/images/map/uktiriaMap.png" tabindex="-1">
+    <img src="/images/map/politicsMap.png" tabindex="-1">
+
+    <a href='@Url.Action("Nombres", "Home", new{pagina=ViewData["Title"]})' class="button" tabindex="-1">Nombres</a>
+
+    <form action='@Url.Action("PasarTurno", "Home")' autocomplete="off" tabindex="-1">
+        <input type="submit" tabindex="-1">
+    </form>
+</main>
+
+<!--<form action='@Url.Action("Resolver", "Home")' autocomplete="off" tabindex="-1">
+        <input type="hidden" name="sala" value="22" tabindex="-1">
+        <input type="text" name="contrasena" required class="text text22" tabindex="-1">
+        <input type="submit" hidden tabindex="-1">
+    </form>-->
+
+@{
+    if (ViewBag.nombres == true)
+    {
+        <main>
+            <img src="/images/map/namesMap.png">
+        </main>
+    }
+
+    if (ViewBag.)
+}

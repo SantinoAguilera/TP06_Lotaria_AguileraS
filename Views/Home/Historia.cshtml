@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Historia";
+}
+
+<main>
+    <img src="/images/map/uktiriaMap.png">
+    <img src="/images/map/politicsMap.png">
+
+    <a href='@Url.Action("Nombres", "Home", new{pagina=ViewData["Title"]})' class="button">Nombres</a>
+</main>
+
+@{
+    if (ViewBag.nombres == true)
+    {
+        <main>
+            <img src="/images/map/namesMap.png">
+        </main>
+    }
+}
