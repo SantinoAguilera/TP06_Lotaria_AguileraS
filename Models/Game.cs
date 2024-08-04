@@ -7,38 +7,45 @@ static class Game
     static int vidaNorte = 3;
     static int vidaCentro = 3;
     static int vidaSur = 3;
+    static int vidaDesembarco = 3;
     static int turno = 0;
 
     //Methods
-    public static int[] randomOgres()
+    public static int[] RandomOrks()
     {
         Random rnd = new Random();
-        int[] movimientosOgros = new int[3];
-        for(int i = 0; i < 3; i++)
+        int[] movimientosOrcos = new int[3];
+        List<int> movimientosPosibles = new List<int> { 0, 1, 2 };
+
+        for (int i = 0; i < 3; i++)
         {
-            movimientosOgros[i] = rnd.Next(0,3);
+            int ciclo = rnd.Next(0, movimientosPosibles.Count);
+            movimientosOrcos[i] = movimientosPosibles[ciclo];
+            movimientosPosibles.RemoveAt(ciclo);
         }
-        return movimientosOgros;
+
+        return movimientosOrcos;
     }
-    public static int[] combatResult(int[] movimientosJugador)
+    
+    public static int[] CombatResult(int[] movimientosJugador)
     {
-        int[] movimientosOgros = randomOgres();
+        int[] movimientosOrcos = RandomOrks();
         int[] resultados = new int[3];
         for(int i = 0; i < 3; i++)
         {
-            if (movimientosJugador[i] == 0 && movimientosOgros[i] == 2)
+            if (movimientosJugador[i] == 0 && movimientosOrcos[i] == 2)
             {
                 resultados[i] = 1;
             }
-            else if (movimientosJugador[i] == 1 && movimientosOgros[i] == 0)
+            else if (movimientosJugador[i] == 1 && movimientosOrcos[i] == 0)
             {
                 resultados[i] = 1;
             }
-            else if (movimientosJugador[i] == 2 && movimientosOgros[i] == 1)
+            else if (movimientosJugador[i] == 2 && movimientosOrcos[i] == 1)
             {
                 resultados[i] = 1;
             }
-            else if (movimientosJugador[i] == movimientosOgros[i])
+            else if (movimientosJugador[i] == movimientosOrcos[i])
             {
                 resultados[i] = 0;
             }
