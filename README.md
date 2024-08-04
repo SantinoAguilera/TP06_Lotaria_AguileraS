@@ -1,3 +1,2 @@
-# TP06_Berihork_AguileraS
-
+# Lotaria
   Sos el rey del Reino de Uktiria, el último reino humano en pie del continente de Lotiria. Lotiria se ve arremetida por una invasión de los orcos que, bajo el comando del Emperador Berio de t’Berihork (Imperio de los Orcos de Berio), han arrasado con toda la región. Tu reino tiene la suerte de encontrarse en una península naturalmente defendida, haciendo que tus ejércitos puedan vencer a la vanguardia de los orcos y permitiéndote mandar un mensaje de auxilio al Elfrealm Azka-Stevia (Reino Elfo de la Fortaleza de Stevia). Ahora, los ejércitos de Berio se acercan a tus fronteras, y te toca resistir hasta que las tropas elfas lleguen a Lotiria. ¡Sálvanos, mi Rey!
